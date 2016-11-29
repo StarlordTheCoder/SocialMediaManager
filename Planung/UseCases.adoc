@@ -21,3 +21,26 @@ User -up-> (Login request)
 (Login request) -right-> (Login)
 --
 
+[uml]
+--
+title Darude Sanddorm
+
+rectangle Client{
+    (Beitragsentwurf Erstellen)
+    (Beitragsentwurf Bearbeiten)
+}
+
+rectangle Server{
+    (Beitragsentwurf Speichern)
+    (Beitragsentwurf Laden)
+}
+
+User --> (Beitragsentwurf Erstellen)
+(Beitragsentwurf Erstellen) -> (Beitragsentwurf Speichern)
+:Pascal: --> (Beitragsentwurf Bearbeiten)
+(Beitragsentwurf Bearbeiten) -> (Beitragsentwurf Laden)
+--
+
+[uml]
+
+--
