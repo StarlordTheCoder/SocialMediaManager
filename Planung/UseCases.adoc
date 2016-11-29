@@ -5,6 +5,25 @@ Version 1.0, 29.11.2016
 
 [uml]
 --
+title Timeline
+
+rectangle Client {
+    (Kalender mit Posts)
+}
+
+rectangle Server {
+    (Daten bereitstellen)
+}
+
+
+:User:
+
+User -up-> (Kalender mit Posts)
+(Daten bereitstellen) -left-> (Kalender mit Posts)
+--
+
+[uml]
+--
 title Register
 
 rectangle Client {
