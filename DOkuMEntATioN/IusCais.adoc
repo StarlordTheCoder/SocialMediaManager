@@ -1,0 +1,18 @@
+[uml]
+--
+title Package - Login
+
+rectangle Client {
+    (Login request)
+}
+
+rectangle Server {
+    (Login)
+}
+
+:User:
+
+User -up-> (Login request)
+(Login request) -right-> (Login)
+--
+
