@@ -5,6 +5,43 @@ Version 1.0, 29.11.2016
 
 [uml]
 --
+title Register
+
+rectangle Client {
+    (Register request)
+}
+
+rectangle Server {
+    (Register)
+}
+
+:User:
+
+User -up-> (Register request)
+(Register request) -right-> (Register)
+--
+
+[uml]
+--
+title Logout
+
+rectangle Client {
+    (Logout request)
+}
+
+rectangle Server {
+    (Logout)
+}
+
+:User:
+
+User -up-> (Logout request)
+(Logout request) -right-> (Logout)
+--
+
+
+[uml]
+--
 title Login
 
 rectangle Client {
@@ -20,4 +57,3 @@ rectangle Server {
 User -up-> (Login request)
 (Login request) -right-> (Login)
 --
-
