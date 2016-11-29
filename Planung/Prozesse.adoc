@@ -3,7 +3,7 @@ Prozesse
 Version 1.0, 29.11.2016
 :toc:
 
-= Fehler wird gemeldet
+== Fehler wird gemeldet
 [uml]
 --
 start
@@ -15,7 +15,7 @@ in den Sprint aufgenommen;
 stop
 --
 
-= Story abschliessen
+== Story abschliessen
 [uml]
 --
 start
