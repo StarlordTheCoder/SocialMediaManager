@@ -1,0 +1,27 @@
+Prozesse
+========
+Version 1.0, 29.11.2016
+:toc:
+
+= Fehler wird gemeldet
+[uml]
+--
+start
+:Fehler (Defect) wird erstellt;
+:Fehler wird durch Team ins Backlog aufgenommen;
+:Fehler wird sobald möglich beim Planning
+in den Sprint aufgenommen;
+:Fehler wird korrigiert und geschlossen;
+stop
+--
+
+= Story abschliessen
+[uml]
+--
+start
+:Acceptance Criterias erfüllen und Story abschliessen;
+:Definition of Done erfüllen
+    * Code-Review
+    * Testfälle;
+stop
+--
