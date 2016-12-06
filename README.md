@@ -15,7 +15,7 @@ Zusätzlich wird ein Preview erstellt, wie der Post auf der Plattform erscheinen
   * JQuery
 * HTML 5
 
-# Richtlinien  
+# Richtlinien
 * Git-Commits müssen mit der Commit-Nummer beginnen (#NUMMER)
 * ReSharper-Cleanup vor Commit ausführen
 
