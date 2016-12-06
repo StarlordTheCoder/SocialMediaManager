@@ -283,3 +283,54 @@ Server, Client, User
 
 === Auslösendes Ereignis
 User möchte einen Beitragsentwurf erstellen oder bearbeiten
+
+= Social-Media Account verwaltung
+=== Beschreibung
+Als User möchte ich einen Social-Media Account hinzufügen/entfernen können
+
+=== Vorbedingungen
+* Website offen
+* Angemeldet
+
+=== Aktion
+. Auf Account hinzufügen drücken
+.. Account Daten eingeben
+.. Speichern
+. Account auswählen
+.. Account löschen
+
+[uml]
+--
+title Social-Media Accounts einbinden
+
+rectangle Client {
+    (Account hinzufügen)
+    (Account löschen)
+}
+
+rectangle Server {
+    (Account speichern)
+    (Account in DB löschen)
+}
+
+:User:
+
+User -up-> (Account hinzufügen)
+User -up-> (Account löschen)
+(Account hinzufügen) -left-> (Account speichern)
+(Account löschen) -left-> (Account in DB löschen)
+--
+
+=== Nachbedingung
+Erfolg: der Account konnte eingebunden/gelöscht werden
+
+Fehlschlag: der Account konnte nicht erstellt/gelöscht werden
+
+=== Invarianten
+-
+
+=== Akteuere
+Server, Client, User
+
+=== Auslösendes Ereignis
+User möchte einen Social-Media Account hinzufügen
