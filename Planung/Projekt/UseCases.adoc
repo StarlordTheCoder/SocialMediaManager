@@ -3,6 +3,17 @@ Anwendungsfälle
 Version 1.0, 29.11.2016
 :toc:
 
+= Timeline
+=== Beschreibung
+Als User möchte ich nachsehen können wann ich was geposted habe und wann ich was posten werde
+
+=== Vorbedingungen
+* Website offen
+* Eingeloggt
+
+=== Aktion
+. Auf Timeline klicken
+
 [uml]
 --
 title Timeline
@@ -15,14 +26,93 @@ rectangle Server {
     (Daten bereitstellen)
 }
 
-
 :User:
 
 User -up-> (Kalender mit Posts)
 (Daten bereitstellen) -left-> (Kalender mit Posts)
 --
- * Some Fany Stufff fffff about ze Usecase
- ** E tu Seraphe
+
+=== Nachbedingung
+Erfolg: Es wird die Timeline dargestellt
+
+Fehlschlag: Die Timline wird nicht dargestellt
+
+=== Invarianten
+Keine veränderten Daten
+
+=== Akteuere
+Server, Client, User
+
+=== Auslösendes Ereignis
+User möchte seine Timline ansehen um sein weiteres vorgehen zu Planen und sein alte Planung ansehen.
+
+= Timeline bearbeiten
+=== Beschreibung
+Als User möchte ich in der Timline meine Post zeitlich planen können.
+
+=== Vorbedingungen
+* Website offen
+* Eingeloggt
+* Timeline bearbeitet
+
+=== Aktionen
+. neues Timeline-Element erstellen
+.. in der Timeline auf gewünschten Zeitpunkt drücken
+.. Aktion eintragen zb. (Post auf Facebook)
+. bestehendes Timeline-Element verschieben
+.. Element auswählen und auf neuen Zeitpunkt verschieben
+. Timeline-Element löschen¨
+.. Element auswählen und löschen
+
+[uml]
+--
+title Posts Planen
+
+rectangle Client {
+    (Post veröffentlichung in Timeline eintagen)
+    (Post veröffentlichung in Timeline löschen)
+    (Post veröffentlichung in Timeline verschieben)
+}
+
+rectangle Server {
+    (neuen Timline-Eintrag in der Datenbank speichern)
+}
+
+:User:
+
+User -up-> (Post veröffentlichung in Timeline eintagen)
+User -up-> (Post veröffentlichung in Timeline löschen)
+User -up-> (Post veröffentlichung in Timeline verschieben)
+(Post veröffentlichung in Timeline eintagen) -left-> (neuen Timline-Eintrag in der Datenbank speichern)
+(Post veröffentlichung in Timeline löschen) -left-> (neuen Timline-Eintrag in der Datenbank speichern)
+(Post veröffentlichung in Timeline verschieben) -left-> (neuen Timline-Eintrag in der Datenbank speichern)
+--
+
+=== Nachbedingung
+Erfolg: Das Timline-Element wurde je nach Aktion entweder verschoben, gelöscht oder erstellt.
+
+Fehlschlag: Das Element wurde entweder nicht erstellt, verschoben oder gelöscht.
+
+=== Invarianten
+-
+
+=== Akteuere
+Server, Client, User
+
+=== Auslösendes Ereignis
+User möchte seine Post zeitlich planen können.
+
+= Registrieren
+=== Beschreibung
+Als User möchte ich mich auf der Seite registrieren können.
+
+=== Vorbedingungen
+* Website offen
+
+=== Aktion
+. Auf Registrieren drücken
+.. Registreirungsdaten eingeben
+. Registrieren
 
 [uml]
 --
@@ -41,9 +131,32 @@ rectangle Server {
 User -up-> (Register request)
 (Register request) -right-> (Register)
 --
- * Some Fany Stufff fffff about ze Usecase
- ** E tu Seraphe
- 
+
+=== Nachbedingung
+Erfolg: der Server hat den User registriert
+
+Fehlschlag: der User wurde nicht registriert
+
+=== Invarianten
+Keine veränderten Daten
+
+=== Akteuere
+Server, Client, User
+
+=== Auslösendes Ereignis
+User möchte sich registrieren
+
+= Logout
+=== Beschreibung
+Als User möchte ich mich aus der Seite abmelden können.
+
+=== Vorbedingungen
+* Website offen
+* Angemeldet
+
+=== Aktion
+. Auf abmelden drücken
+
 [uml]
 --
 title Logout
@@ -61,8 +174,34 @@ rectangle Server {
 User -up-> (Logout request)
 (Logout request) -right-> (Logout)
 --
- * Some Fany Stufff fffff about ze Usecase
- ** E tu Seraphe
+
+=== Nachbedingung
+Erfolg: der User wurde aus der Seite abgemeldet
+
+Fehlschlag: der User konnte nicht abgemeldet werden
+
+=== Invarianten
+Daten
+
+=== Akteuere
+Server, Client, User
+
+=== Auslösendes Ereignis
+User möchte sich sich aus der Seite abmelden.
+
+= Login
+=== Beschreibung
+Als User möchte ich mich in die Seite anmelden können.
+
+=== Vorbedingungen
+* Website offen
+* Registriert
+
+=== Aktion
+. Auf anmelden drücken
+.. Logindaten eingeben
+. Anmelden
+
 
 [uml]
 --
@@ -81,12 +220,39 @@ rectangle Server {
 User -up-> (Login request)
 (Login request) -right-> (Login)
 --
- * Some Fany Stufff fffff about ze Usecase
- ** E tu Seraphe
+
+=== Nachbedingung
+Erfolg: der User ist angemeldet
+
+Fehlschlag: der User konnte nicht angemeldet werden
+
+=== Invarianten
+Daten
+
+=== Akteuere
+Server, Client, User
+
+=== Auslösendes Ereignis
+User möchte sich sich in die Seite anmmelden
+
+= Beitragsentwurf
+=== Beschreibung
+Als User möchte ich Beitragsentwürfe erstellen und bearbeiten können
+
+=== Vorbedingungen
+* Website offen
+* Angemeldet
+
+=== Aktion
+. Auf neuen Entwurf erstellen drücken
+.. Entwurf erfassen
+. Entwurf auswählen
+.. Entwurf bearbeiten
+
 
 [uml]
 --
-title Darude Sanddorm
+title Beitragsentwurf
 
 rectangle Client{
     (Beitragsentwurf Erstellen)
@@ -103,12 +269,17 @@ User --> (Beitragsentwurf Erstellen)
 :Pascal: --> (Beitragsentwurf Bearbeiten)
 (Beitragsentwurf Bearbeiten) -> (Beitragsentwurf Laden)
 --
-* GEEgE
-** fuck gueti frag
 
+=== Nachbedingung
+Erfolg: der Entwurf wurde erstellt oder die änderungen wurden erfolgreich übernommen
 
-[uml]
+Fehlschlag: der Entwurf konnte nicht erstellt oder bearbeitet werden
 
---
- * Some Fany Stufff fffff about ze Usecase
- ** E tu Seraphe
+=== Invarianten
+-
+
+=== Akteuere
+Server, Client, User
+
+=== Auslösendes Ereignis
+User möchte einen Beitragsentwurf erstellen oder bearbeiten
