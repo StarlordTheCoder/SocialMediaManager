@@ -1,7 +1,6 @@
 Prozesse & Abläufe
 ==================
-Version 1.0, 29.11.2016
-Version 1.1, 06.12.2016
+Version 1.2, 06.12.2016
 :toc:
 
 == Berücksichtigung Planung
@@ -23,7 +22,7 @@ endif
 stop
 --
 
-== Qualiät garantieren
+== Qualität garantieren
 [uml]
 --
 start
@@ -55,5 +54,25 @@ start
 :Sprint Review;
 :Sprint Retro;
 :Reflektion und Verbesserung des Teams;
+stop
+--
+
+== Nichteinhaltung eines Sprint-Contracts
+[uml]
+--
+start
+:Sprint-Ziele können nicht erfüllt werden;
+if (Sprint-Ziele knapp verfehlt?) then (Ja)
+  :PO informieren;
+  :Planung leicht anpassen;
+else (Nein)
+  :PO informieren und Strategie erarbeiten;
+  :Release-Planung anpassen;
+  :Kosten anpassen;
+  :Vorschlag mit Kunde besprechen;
+endif
+:Reflektion: Wieso wurde das Ziel nicht erreicht?
+Zu viel geplant?
+Was tun, damit es nicht mehr passiert?;
 stop
 --
