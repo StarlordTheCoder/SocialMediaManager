@@ -1,7 +1,11 @@
-Prozesse
-========
+Prozesse & Abläufe
+==================
 Version 1.0, 29.11.2016
+Version 1.1, 06.12.2016
 :toc:
+
+== Berücksichtigung Planung
+Aufgrund ungeplanter Arbeit wird bei jedem Sprint eine gewisse Zeit für solche Arbeiten eingerechnet. Dadurch kann dem Kunden gewährleistet werden, dass kritische Fehler zeitnah behoben werden.
 
 == Fehler wird gemeldet
 [uml]
@@ -9,19 +13,47 @@ Version 1.0, 29.11.2016
 start
 :Fehler (Defect) wird erstellt;
 :Fehler wird durch Team ins Backlog aufgenommen;
-:Fehler wird sobald möglich beim Planning
+if (Kritischer Fehler?) then (Ja)
+  :Fehler sofort behandeln;
+else (Nein)
+  :Fehler wird bei der Planung
 in den Sprint aufgenommen;
+endif
 :Fehler wird korrigiert und geschlossen;
 stop
 --
 
-== Story abschliessen
+== Qualiät garantieren
 [uml]
 --
 start
-:Acceptance Criterias erfüllen und Story abschliessen;
-:Definition of Done erfüllen
-    * Code-Review
-    * Testfälle;
+
+while (Acceptance Criterias der Story erfüllt?) is (Nein)
+  :Entwickeln;
+  :Code-Review;
+  :Review-Befunde einarbeiten;
+  :Git Push;
+  :Befunde der Continous Integration berücksichtigen;
+endwhile (Ja)
+:Neue Tests wurden erstellt, sofern möglich und sinnvoll;
+:Alle Tests sind grün (Keine Fehler);
+:Story im Scrum-Board auf "Ready for Test" setzen;
+:Story mit PO besprechen und abnehmen lassen;
+:Story im Scrum-Board auf "Done" setzen;
+stop
+--
+
+== Sprint durchführen
+[uml]
+--
+start
+:Sprint-Backlog durch PO füllen;
+:Aufwand in einer Planung schätzen;
+:Sprint Contract unterzeichnen;
+:Entwickeln / Arbeiten;
+:Sprint abschliessen;
+:Sprint Review;
+:Sprint Retro;
+:Reflektion und Verbesserung des Teams;
 stop
 --
