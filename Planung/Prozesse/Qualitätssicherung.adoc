@@ -1,0 +1,56 @@
+Qualitätssicherung garantieren
+==============================
+Version 1.0, 12.12.2016
+:toc:
+
+== Wieso ist Qualität wichtig?
+Zu den Hauptzielen von Qualitätssicherung zählen das Auffinden von Fehlern und das Aufbauen von Vertrauen in die Qualität des erstellten Produkts.
+Um diese Ziele zu erreichen, werden in der Regel strukturierte Softwaretests in das Projekt eingeplant.
+Diese Tests können automatisch oder manuell durchgeführt werden.
+
+[NOTE]
+====
+Automatische Tests für Whitebox-Testing (Technisch) und manuelle Tests für Blackbox-Testing (Fachlich) bevorzugt wird.
+====
+
+== Vorgehen Agil (Scrum)
+Das Scrum-Team, welches ein Scrum-Projekt selbstorganisierend durchführt, stellt das Herzstück des Projekts dar.
+Aus diesem Grund ist die Teamzusammenstellung der kritische Erfolgsfaktor für das Projekt.
+Aus Sicht der Qualitätssicherung sind hier insbesondere zwei Massnahmen entscheidend:
+
+* Der Product Owner ist jederzeit entscheidungsfähig besitzt die fachliche Kompetenz, um Anforderungen zu priorisieren
+* Die Teammitglieder besitzen die Fähigkeiten, welche zur Entwicklung qualitativ hochwertiger Software nötig sind
+** Kenntnisse von Designmethoden und der verwendeten Programmiersprache
+** Kenntnisse in Methoden der Qualitätssicherung
+
+Dies ist notwendig, da in Scrum keine Tester-Rolle vorgesehen ist.
+Es sollten durch das Scrum-Team Vorgaben hinsichtlich der Programmierung in Form von Programmierrichtlinien festgelegt werden, um die Wartbarkeit der Software zu gewährleisten.
+Die Einhaltung der Richtlinien sollte automatisiert in Form statischer Analysen im Integrationsprozess geprüft werden, im Idealfall durch eine Continous Integration.
+Wir setzten hierzu link:https://codeclimate.com/github/StarlordTheCoder/SocialMediaManager[CodeClimate], welche unseren Code automatisch nach jedem Push analysiert.
+Diese Vorgaben bilden zusammen mit den im Team festgelegten Qualitätszielen die <<DoD>>.
+Die DoD enthält somit die zentralen Kriterien, die erfüllt werden müssen, damit ein (Zwischen-)Produkt als fertiggestellt betrachtet werden kann.
+Qualitätssicherungsmassnahmen während des Sprints dienen der Prüfung des Releases. Neben bereits angesprochenen statischen Analysen sollten als weitere Qualitätssicherung auch ein Review durchgeführt werden. Zu diesem Zweck empfehlenswert ist die Praxis des Pair Programming aus dem Extreme Programming.
+Hierbei arbeiten zwei Entwickler am selben Stück Code. Während einer die eigentliche Programmierung vornimmt, prüft der zweite Entwickler den geschriebenen Code per Sichtprüfung.
+
+=== Entwicklungsrichtlinien
+* Git-Commits sollten mit der Commit-Nummer beginnen (#NUMMER)
+* Code-Cleanup vor Commit ausführen, damit die Coding-Konventionen eingehalten werden
+
+=== Programmierrichtlinien
+* Sprach-Konventionen für Klassen, Variablen, Methoden etc. sind eingehalten
+
+[[DoD]]
+=== Definition of Done (DoD)
+* Alle Akzeptanzkriterien werden erfüllt
+* Der Code ist fertiggestellt und im Versionierungssystem eingespielt
+* Dokumentation Update durchgeführt
+* Es wurde ein Code Review durchgeführt oder der Code wurde im Pair Programming erarbeitet
+* Coding Guidelines und Standards wurden eingehalten
+* Es wurden Unit Tests durchgeführt und auf "Pass"
+* Es sind keine kritischen Bugs offen
+
+== Vergleich Agil & Klassisch
+[CAUTION]
+====
+TODO
+====

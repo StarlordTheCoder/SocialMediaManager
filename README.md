@@ -18,16 +18,3 @@ Zusätzlich wird ein Preview erstellt, wie der Post auf der Plattform erscheinen
 * JavaScript
   * JQuery
 * HTML 5
-
-# Richtlinien
-* Git-Commits müssen mit der Commit-Nummer beginnen (#NUMMER)
-* ReSharper-Cleanup vor Commit ausführen
-
-# Definition of Done (DoD)
-* Alle Akzeptanzkriterien werden erfüllt
-* Der Code ist fertiggestellt und im Versionierungssystem eingespielt
-* Dokumentation Update durchgeführt
-* Es wurde ein Code Review durchgeführt oder der Code wurde im Pair Programming erarbeitet
-* Coding Guidelines und Standards wurden eingehalten
-* Es wurden Unit Tests durchgeführt und auf "Pass"
-* Es sind keine kritischen Bugs offen
