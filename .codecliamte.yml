@@ -20,7 +20,11 @@ ratings:
   - "**.js"
   - "**.php"
   - "**.html"
-include_paths:
-- "project/*"
 exclude_paths:
-- "project/img/*"
+- "Project/img/"
+- "Planung/"
+- ".idea/"
+- "**.adoc"
+- "**.md"
+- "**.doc"
+- "**.docx"
