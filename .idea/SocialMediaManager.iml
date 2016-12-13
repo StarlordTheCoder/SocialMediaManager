@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Project/js" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Project/view" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Project/input" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

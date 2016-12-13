@@ -13,7 +13,7 @@
         <script src="register.js"></script>
     </head>
     <body>
-        <form onsubmit="register()">
+        <form onsubmit="register(); return false;">
             <label for="username">Username</label> <input type="text" name="username" id="username"> <br/>
             <label for="surname">Surname</label> <input type="text" name="surname" id="surname"> <br/>
             <label for="name">Name</label> <input type="text" name="name" id="name"> <br/>
