@@ -14,7 +14,7 @@ Zusätzlich wird ein Preview erstellt, wie der Post auf der Plattform erscheinen
 * [PhpStorm](https://www.jetbrains.com/phpstorm/)
 
 # Technologien
-* PHP 7
+* PHP 7.1
 * JavaScript
   * JQuery
 * HTML 5
