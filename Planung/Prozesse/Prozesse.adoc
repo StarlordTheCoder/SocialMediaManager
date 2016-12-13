@@ -1,6 +1,6 @@
 Prozesse & Abläufe
 ==================
-Version 1.2, 06.12.2016
+Version 1.3, 06.12.2016
 :toc:
 
 == Berücksichtigung Planung
@@ -74,5 +74,24 @@ endif
 :Reflektion: Wieso wurde das Ziel nicht erreicht?
 Zu viel geplant?
 Was tun, damit es nicht mehr passiert?;
+stop
+--
+
+== Release durchführen
+[uml]
+--
+start
+:In der Versionkontrolle einen Release-Stand markieren;
+:Einen Release mit der aktuellen Versionsnummer in Github erstellt;
+if () then (Grosser Release)
+  :Mit Kunde validieren, dass alle Funktionen 
+  wie gewünscht umgesetzt wurden;
+  :Alle Abnahmetests durchführen & bestehen;
+else (Kleiner Release [Bugfix])
+  :Überprüfen, dass nur der Bugfix
+  in den Änderungen aufgeführt ist;
+  :Testfälle bezüglich des Fehlers durchführen;
+endif
+:Software zum Kunden bringen;
 stop
 --
