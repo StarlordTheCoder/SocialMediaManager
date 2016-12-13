@@ -49,7 +49,7 @@ class Login
         http_response_code(500);
     }
 }
-$username = filter_input(INPUT_GET, 'Username', FILTER_SANITIZE_STRING) ?? "";
-$password = filter_input(INPUT_GET, 'Password') ?? "";
+$username = filter_input(INPUT_POST, 'Username', FILTER_SANITIZE_STRING) ?? "";
+$password = filter_input(INPUT_POST, 'Password') ?? "";
 $controller = new Login();
 $controller->loginPerson($username, $password);
