@@ -1,9 +1,10 @@
 Anwendungsfälle
 ===============
-Version 1.0, 29.11.2016
+Version 1.1, 13.12.2016
 :toc:
+:numbered:
 
-= Timeline
+== Timeline
 === Beschreibung
 Als User möchte ich nachsehen können wann ich was geposted habe und wann ich was posten werde
 
@@ -46,7 +47,7 @@ Server, Client, User
 === Auslösendes Ereignis
 User möchte seine Timline ansehen um sein weiteres vorgehen zu Planen und sein alte Planung ansehen.
 
-= Timeline bearbeiten
+== Timeline bearbeiten
 === Beschreibung
 Als User möchte ich in der Timline meine Post zeitlich planen können.
 
@@ -102,7 +103,7 @@ Server, Client, User
 === Auslösendes Ereignis
 User möchte seine Post zeitlich planen können.
 
-= Registrieren
+== Registrieren
 === Beschreibung
 Als User möchte ich mich auf der Seite registrieren können.
 
@@ -146,7 +147,7 @@ Server, Client, User
 === Auslösendes Ereignis
 User möchte sich registrieren
 
-= Logout
+== Logout
 === Beschreibung
 Als User möchte ich mich aus der Seite abmelden können.
 
@@ -189,7 +190,7 @@ Server, Client, User
 === Auslösendes Ereignis
 User möchte sich sich aus der Seite abmelden.
 
-= Login
+== Login
 === Beschreibung
 Als User möchte ich mich in die Seite anmelden können.
 
@@ -235,7 +236,7 @@ Server, Client, User
 === Auslösendes Ereignis
 User möchte sich sich in die Seite anmmelden
 
-= Beitragsentwurf
+== Beitragsentwurf
 === Beschreibung
 Als User möchte ich Beitragsentwürfe erstellen und bearbeiten können
 
@@ -284,7 +285,7 @@ Server, Client, User
 === Auslösendes Ereignis
 User möchte einen Beitragsentwurf erstellen oder bearbeiten
 
-= Social-Media Account verwaltung
+== Social-Media Account verwaltung
 === Beschreibung
 Als User möchte ich einen Social-Media Account hinzufügen/entfernen können
 
