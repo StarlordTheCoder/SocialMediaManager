@@ -25,8 +25,7 @@ class Login
      * @param string $password
      */
     public function loginPerson(string $username, string $password)
-    {
-		echo $username;
+    {		
         $user = $this->model->load($username);
         if ($password == $user['password']) {
             $this->saveUser($user);
@@ -45,11 +44,7 @@ class Login
         $this->session->setCurrentUser($user);
     }
     private function loginError()
-    {
+    {		
         http_response_code(500);
     }
 }
-$username = filter_input(INPUT_POST, 'Username', FILTER_SANITIZE_STRING) ?? "";
-$password = filter_input(INPUT_POST, 'Password') ?? "";
-$controller = new Login();
-$controller->loginPerson($username, $password);

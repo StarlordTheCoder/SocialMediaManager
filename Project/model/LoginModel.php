@@ -15,7 +15,7 @@ class LoginModel
 		if($username == "test"){
 			
 			$stmt = [
-				"password" => "SecurePw",
+				"password" => "SecurePW",
 				"username" => "test",
 			];
 			
