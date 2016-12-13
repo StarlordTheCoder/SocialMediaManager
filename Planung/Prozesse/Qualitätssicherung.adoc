@@ -1,6 +1,6 @@
 Qualitätssicherung garantieren
 ==============================
-Version 1.0, 12.12.2016
+Version 1.1, 13.12.2016
 :toc:
 
 == Wieso ist Qualität wichtig?
@@ -50,7 +50,20 @@ Hierbei arbeiten zwei Entwickler am selben Stück Code. Während einer die eigen
 * Es sind keine kritischen Bugs offen
 
 == Vergleich Agil & Klassisch
-[CAUTION]
-====
-TODO
-====
+In agile Projekten wird viel Wert auf das Kontinuierliche gesetzt.
+Man verbessert das Team durch Reviews und die Software durch iterative Entwicklung und kontinuierliche Integration.
+Diese Reflektionen werden nach jedem Sprint, also regelmässig durchgeführt.
+Im Klassischen Ansatz werden Testing und Integration erst nach der Implementation durchgeführt, nicht während.
+Dadurch fallen kritische Denkfehler in der Integration erst am Schluss des Projektes auf, wo der Aufwand einer Korrektur um ein vielfaches grösser ist.
+Dafür ist der Testaufwand im Totalen kleiner, da man nur einmal gross testen muss.
+Ob die Qualität am Ende der Entwicklung ausreichend ist werden zu Beginn Qualitätsziele definiert.
+Dies kann im klassischen und agilen Projektmanagement getan werden.
+Diese Qualitätsziele müssen vor jedem Release erfüllt werden, damit dieser abgenommen wird.
+Dieser Qualitätsplan inklusive den Qualitätszielen ist wie alles im Klassischen Ansatz nicht sehr flexibel.
+Falls die Qualitätsanforderungen strenger werden, muss dieser Plan in einem aufwändigen Prozess angepasst werden.
+
+== Vorteile Agil
+* Schnelle Resultate, falls das Projekt in eine falsche Richtung verläuft
+* Regelmässige Qualitätskontrollen aller Funktionen, nicht nur der Zentralen
+* Erhöhte Code-Qualität dank Zwei-Augen-Prinzip (Code-Review, Pair-Programming)
+* Flexible Änderung der Qualitätsziele
