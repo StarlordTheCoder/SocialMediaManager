@@ -11,7 +11,7 @@ Version 1.0, 13.12.2016
 == Funktionen
 - Damit der User sich authentifizieren kann, wird ein Login mit Username und Passwort implementiert. 
 - Neue Nutzer können sich mit ihrem Namen und Email-Adresse registrieren.
-- Die Appliaktion ist in Deutsch und Englisch verfügbar, das heisst alle Texte werden sowohl in Englisch oder in Deutsch angezeigt. Der User kann jederzeit wählen,in welcher Sprache das Too, sein soll. 
+- Die Appliaktion ist in Deutsch und Englisch verfügbar, das heisst alle Texte werden sowohl in Englisch oder in Deutsch angezeigt. Der User kann jederzeit wählen,in welcher Sprache das Tool sein soll. 
 - Das Tool unterstützt die Verbindung mit den drei Social-Media Plattformen Facebool, Instagram und Twitter.
 - Es können Posts mit Bild und Text vorbereitet werden. Diese werden in der Datenbank gespeichert, damit sie von einem anderen Gerät weiterverwendet werden können. Jedem Post kann ein Datum zugewiesen werden, an welchem geplant ist den Post zu veröffentlichen.
 - Es wird eine Preview des Accounts mit den Post-entwürfen erstellt. Diese Preview wird anhand der Veröffentlichungsdaten der Postentwürfe erstellt.  
@@ -20,3 +20,6 @@ Version 1.0, 13.12.2016
 == Daten
 - Die Benutzerdaten werden auf einem SQL-Server abgelegt.
 - Die Passwörter der Nutzer sind mit einem aktuellen Hash gehasht und gesaltet.
+
+
+Alle diese Ziele werden bis Ende Projekt erfüllt.
