@@ -1,0 +1,46 @@
+Change Management
+=================
+Version 1.0, 20.12.2016
+:toc:
+
+== Berücksichtigung Planung
+Aufgrund ungeplanter Arbeit wird bei jedem Sprint eine gewisse Zeit für solche Arbeiten eingerechnet. Dadurch kann dem Kunden gewährleistet werden, dass kritische Fehler zeitnah behoben werden.
+
+== Wieso werden Änderungen gemacht?
+=== Anforderung vergessen
+Der Kunde erkennt, dass bei dem bestehenden Produkt eine Funktion fehlt.
+
+[uml]
+--
+start
+:Feature (Story) wird erstellt;
+:Story wird durch Team ins Backlog aufgenommen;
+:Der jetzige Sprint wird normal abgeschlossen;
+:Story wird priorisiert und dementsprechend umgesetzt;
+stop
+--
+
+=== Fehler identifiziert
+Während der Benutzung des Produktes wurde ein Fehler identifiziert.
+
+[uml]
+--
+start
+:Fehler (Defect) wird erstellt;
+:Fehler wird durch Team ins Backlog aufgenommen;
+if (Kritischer Fehler?) then (Ja)
+  :Fehler sofort behandeln;
+else (Nein)
+  :Fehler wird bei der Planung
+in den Sprint aufgenommen;
+endif
+:Fehler wird korrigiert und geschlossen;
+stop
+--
+
+=== Nicht gewusst, was sie wirklich wollen
+Es tritt leider nicht selten auf, dass der Kunde nicht genau weiss, was er will.
+Vielleicht fällt ihm erst zu Ende der Entwicklung auf, dass das Produkt nicht seinen Anforderungen entspricht.
+Daher ist die http://AgileModeling.com/essays/activeStakeholderParticipation.htm[aktive beteiligung des Kunden] ein wichtiger Grundsatz der agilen Softwareentwicklung.
+Sobald eine Story jedoch umgesetzt wird, können lediglich Details angepasst werden.
+Möchte man die ganze Story ändern oder entfernen, muss der Sprint abgebrochen und neu geplant werden.

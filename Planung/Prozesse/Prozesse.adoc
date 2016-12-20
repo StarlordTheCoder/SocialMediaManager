@@ -1,26 +1,7 @@
 Prozesse & Abläufe
 ==================
-Version 1.3, 06.12.2016
+Version 1.4, 20.12.2016
 :toc:
-
-== Berücksichtigung Planung
-Aufgrund ungeplanter Arbeit wird bei jedem Sprint eine gewisse Zeit für solche Arbeiten eingerechnet. Dadurch kann dem Kunden gewährleistet werden, dass kritische Fehler zeitnah behoben werden.
-
-== Fehler wird gemeldet
-[uml]
---
-start
-:Fehler (Defect) wird erstellt;
-:Fehler wird durch Team ins Backlog aufgenommen;
-if (Kritischer Fehler?) then (Ja)
-  :Fehler sofort behandeln;
-else (Nein)
-  :Fehler wird bei der Planung
-in den Sprint aufgenommen;
-endif
-:Fehler wird korrigiert und geschlossen;
-stop
---
 
 == Qualität garantieren
 [uml]
