@@ -1,0 +1,37 @@
+Organisationstypen
+==================
+Version 1.0, 20.12.2016
+:toc:
+:numbered:
+
+== Linien Organisation
+Die Linien-Organisation ist Hirarchisch aufgebaut. Jeder Mitarbeiter hat einen Vorgesetzten vor dem er sich verantworten muss. Es gibt ein einliniges System bei dem Jeder Mitarbeiter nur einen Vorgesetzten hat. Ein weiteres System ist das Mehrlinige. Bei dem hat der Motarbeiter mehrere Fachspezialisten, die über ihm stehen, und an die er sich wenden kann.
+
+=== Vorteile
+* Einfache und Übersichtliche Srucktur in kleinen Unternhemen
+* Eindeutige zuweisung von Verantowrtungen
+* Kurzer Entscheidungsprozess
+
+=== Nachteile
+* Belastung der Spitze
+* Hierarchsiche Struktur
+
+== Stablinien Organisation
+
+=== Vorteile
+
+=== Nachteile
+
+
+== Funktionale Organisation
+
+=== Vorteile
+
+=== Nachteile
+
+
+== Matrix Organisation
+
+=== Vorteile
+
+=== Nachteile
