@@ -24,11 +24,15 @@ Die Linien-Organisation ist Hirarchisch aufgebaut. Jeder Mitarbeiter hat einen V
 
 
 == Funktionale Organisation
+In der Funktionalen Organisation wird der Betrieb in verschidenen Bereiche wie Forschung, Marketing, Vertrieb... unterteilt.
 
 === Vorteile
+* Hohe Fachkompetenz
+* Kurze Informationswege innerhalb des Bereiches
 
 === Nachteile
-
+* Zusammenarbeit der Bereiche wird durch trennung erschwert
+* Entscheidngsprozesse, welche alle betreffen sind lange
 
 == Matrix Organisation
 
