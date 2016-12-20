@@ -1,0 +1,19 @@
+Retrospectiven
+==============
+Version 1.0, 20.12.2016
+:toc:
+
+== 20.12.2016
+=== Positiv
+* Genug Arbeit für jeden
+* Gute Projekt-Aussichten
+* Entwicklungsumgebung funktioniert
+
+=== Negativ
+* Zu viele Dokumente
+* Contract nicht erfüllt
+* Arbeitsgerät eines Mitabeiters an der Grenze seiner Existenz
+
+=== Aktionen
+* Dokumentation besser aufteilen
+* Fokus auf Fertigstellung des Releases stellen
