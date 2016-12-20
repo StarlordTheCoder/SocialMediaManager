@@ -1,10 +1,15 @@
 Change Management
 =================
-Version 1.0, 20.12.2016
+Version 1.1, 20.12.2016
 :toc:
 
 == Berücksichtigung Planung
 Aufgrund ungeplanter Arbeit wird bei jedem Sprint eine gewisse Zeit für solche Arbeiten eingerechnet. Dadurch kann dem Kunden gewährleistet werden, dass kritische Fehler zeitnah behoben werden.
+
+== Änderungen dokumentieren
+Bei Änderungen an dem Funktionsumfang unseres Projektes müssen keine weiteren Dokumente erstellt werden.
+Die Änderungen sind durch die jeweiligen Backlog-Items dokumentiert, welche in Taiga auch über eine Change-History verfügen.
+Daher müssen nur neue Stories / Defects erstellt werden, diese symbolisieren die Dokumentation.
 
 == Wieso werden Änderungen gemacht?
 === Anforderung vergessen
