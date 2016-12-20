@@ -18,3 +18,22 @@ Zusätzlich wird ein Preview erstellt, wie der Post auf der Plattform erscheinen
 * JavaScript
   * JQuery
 * HTML 5
+* Asciidoc
+
+# Dokumentation
+Unsere Dokumentation ist in Asciidoc verfasst.
+Als Editor wird [AsciidocFX](http://asciidocfx.com/) zusammen mit [Graphviz](http://www.graphviz.org/) verwendet.
+Die Vorschau auf Github beinhaltet den Text, jedoch nicht die PlantUML-Zeichnungen.
+
+[Ziele](Planung/Projekt/Projektziele.adoc)
+[Anwendungsfälle](Planung/Projekt/UseCases.adoc)
+[Organisationen](Planung/Projekt/organisationen.adoc)
+
+[Change Management](Planung/Prozesse/ChangeManagement.adoc)
+[Allgemeine Prozesse](Planung/Prozesse/Prozesse.adoc)
+[Qualitätssicherung](Planung/Prozesse/Qualitätssicherung.adoc)
+
+[Rollenverteilung](Planung/Rollen/rollen.doc)
+
+
+[Rollenverteilung](Planung/Scrum/Retrospectiven.adoc)
