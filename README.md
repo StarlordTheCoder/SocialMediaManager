@@ -38,12 +38,13 @@ Weitere Dokumente werden vom Kunden gewünscht und werden daher als Story in uns
 ### Projekt
 * [Ziele](Planung/Projekt/Projektziele.adoc)
 * [Anwendungsfälle](Planung/Projekt/UseCases.adoc)
-* [Organisationen](Planung/Projekt/organisationen.adoc)
+* [Organisationen](Planung/Projekt/Organisationen.adoc)
 
 ### Prozesse
 * [Change Management](Planung/Prozesse/ChangeManagement.adoc)
 * [Allgemeine Prozesse](Planung/Prozesse/Prozesse.adoc)
 * [Qualitätssicherung](Planung/Prozesse/Qualitätssicherung.adoc)
+* [Projektparameter](Planung/Prozesse/Projektparameter.adoc)
 
 ### Rollen
 * [Rollenverteilung](Planung/Rollen/rollen.doc)
