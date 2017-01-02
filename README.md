@@ -21,19 +21,32 @@ Zusätzlich wird ein Preview erstellt, wie der Post auf der Plattform erscheinen
 * Asciidoc
 
 # Dokumentation
-Unsere Dokumentation ist in Asciidoc verfasst.
+## Wie wird dokumentiert?
+Unsere Dokumentation ist in Asciidoc verfasst und wird auschliesslich auf Github verwaltet.
 Als Editor wird [AsciidocFX](http://asciidocfx.com/) zusammen mit [Graphviz](http://www.graphviz.org/) verwendet.
 Die Vorschau auf Github beinhaltet den Text, jedoch nicht die PlantUML-Zeichnungen.
+Daher sollte zum Schreiben und Auswerten AsciidocFX und nicht der Web-Client verwendet werden.
+Auf Wunsch können die Dokumente auch als PDF exportiert werden.
 
-[Ziele](Planung/Projekt/Projektziele.adoc)
-[Anwendungsfälle](Planung/Projekt/UseCases.adoc)
-[Organisationen](Planung/Projekt/organisationen.adoc)
+## Wer dokumentiert was?
+In unseren [Definition of Done](Planung/Prozesse/Qualitätssicherung.adoc#definition-of-done-dod) ist definiert, dass ein Dokumentationsupdate durchgeführt wird.
+Dies bezieht sich auf die technische Dokumente wie Klassendiagramme und Code-Erklärungen.
+Diese werden falls nötig angepasst und liegen im Interesse des Entwicklers.
+Weitere Dokumente werden vom Kunden gewünscht und werden daher als Story in unserem Scrum-Board erfasst.
 
-[Change Management](Planung/Prozesse/ChangeManagement.adoc)
-[Allgemeine Prozesse](Planung/Prozesse/Prozesse.adoc)
-[Qualitätssicherung](Planung/Prozesse/Qualitätssicherung.adoc)
+## Übersicht
+### Projekt
+* [Ziele](Planung/Projekt/Projektziele.adoc)
+* [Anwendungsfälle](Planung/Projekt/UseCases.adoc)
+* [Organisationen](Planung/Projekt/organisationen.adoc)
 
-[Rollenverteilung](Planung/Rollen/rollen.doc)
+### Prozesse
+* [Change Management](Planung/Prozesse/ChangeManagement.adoc)
+* [Allgemeine Prozesse](Planung/Prozesse/Prozesse.adoc)
+* [Qualitätssicherung](Planung/Prozesse/Qualitätssicherung.adoc)
 
+### Rollen
+* [Rollenverteilung](Planung/Rollen/rollen.doc)
 
-[Rollenverteilung](Planung/Scrum/Retrospectiven.adoc)
+### Scrum
+* [Retrospektiven](Planung/Scrum/Retrospectiven.adoc)
