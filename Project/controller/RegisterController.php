@@ -1,5 +1,6 @@
 <?php
-require_once "CustomSession.php";
+require_once "../model/CustomSession.php";
+require_once "../model/RegisterModel.php";
 /**
  * Created by PhpStorm.
  * User: Seraphin
@@ -7,15 +8,17 @@ require_once "CustomSession.php";
  * Time: 15:44
  */
 /**
- * Controller für die Registrierung
+ * Controller fÃ¼r die Registrierung
  */
 class Register
 {
     private static $passwordRegularExpression = '/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@!%*?&_-])[A-Za-z\d$@!%*?&_-]{8,}/';
     private $session;
+    private $model;
     public function __construct()
     {
         $this->session = CustomSession::getInstance();
+        $this->model = new RegisterModel();
     }
     /**
      * Register the specified User with the provided data. Will check that the Input is valid before sending it to the database.
@@ -39,12 +42,14 @@ class Register
         }
         // No Errors
         if ($allValid) {
+                $insertedUser = $this->model->add($username, $password, $surname, $name, $mail);
                 $this->session->setCurrentUser($insertedUser);
                 return;
-        }        
+        }
         //Some Error Occured
         http_response_code(500);
     }
+
     /**
      * @param string $username
      * @param string $password

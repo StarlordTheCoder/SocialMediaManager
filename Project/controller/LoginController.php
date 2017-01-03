@@ -1,6 +1,6 @@
 <?php
 require_once "../model/LoginModel.php";
-require_once "CustomSession.php";
+require_once "../model/CustomSession.php";
 /**
  * Created by PhpStorm.
  * User: Serphin
@@ -8,7 +8,7 @@ require_once "CustomSession.php";
  * Time: 15:44
  */
 /**
- * Controller für die Anmeldung
+ * Controller fÃ¼r die Anmeldung
  */
 class Login
 {
@@ -25,17 +25,18 @@ class Login
      * @param string $password
      */
     public function loginPerson(string $username, string $password)
-    {		
+    {
         $user = $this->model->load($username);
-        if ($password == $user['password']) {
+        if (isset($user) && $password == $user->getPassword()) {
             $this->saveUser($user);
             return;
         }
+
         //Password wrong
         $this->loginError();
     }
     /**
-     * Saves the user to the Session and exites the script
+     * Saves the user to the Session and exits the script
      * @param $user
      * The user to save
      */

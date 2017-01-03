@@ -5,21 +5,29 @@
  * Date: 14.03.2016
  * Time: 19:04
  */
+
 /**
- * Model für die Anmeldung
+ * Model fÃ¼r die Anmeldung
  */
 class LoginModel
 {
-    public function load(string $username)
+    private $session;
+    public function __construct()
     {
-		if($username == "test"){
-			
-			$stmt = [
-				"password" => "SecurePW",
-				"username" => "test",
-			];
-			
-			return $stmt;
-		}
+        $this->session = CustomSession::getInstance();
+    }
+
+    public function load(string $username): ?User
+    {
+        foreach ($this->session->getUsers() as $user)
+        {
+            //Cannot declare type withing array
+            /** @noinspection PhpUndefinedMethodInspection */
+            if($user->getUsername() == $username) {
+                return $user;
+            }
+        }
+
+        return null;
     }
 }

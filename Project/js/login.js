@@ -5,17 +5,17 @@ function login() {
     var genericFormData = new FormData($("form")[0]);
 
     $.ajax({
-        type: "GET",
+        type: "POST",
         url: "../input/LoginInput.php",
         data: genericFormData,
         cache: false,
         contentType: false,
         processData: false,
         success: function (data) {
-            $("#loginbutton").val('✔');
-            },
+            $("#loginButton").val('✔');
+        },
         error: function (request, status, error) {
-            $("#loginbutton").val('✘');
-            }
-        });
+            $("#loginButton").val('✘');
+        }
+    });
 }
