@@ -11,6 +11,7 @@
 
 // Custom-Klassen müssen vor dem Starten der Session eingebunden werden, ansonsten werden diese in __PHP_Incomplete_Class übersetzt
 require_once("User.php");
+require_once("Post.php");
 
 class CustomSession
 {
@@ -61,5 +62,23 @@ class CustomSession
     public function getUsers(): array
     {
         return isset($_SESSION['AllUsers']) ? $_SESSION['AllUsers'] : array();
+    }
+
+    // Posts (Temporary replacement for database)
+    public function addPost(Post $post)
+    {
+        if(!isset($_SESSION['AllPosts'])) {
+            $_SESSION['AllPosts'] = array();
+        }
+
+        array_push($_SESSION['AllPosts'], $post);
+    }
+    public function getPosts(): array
+    {
+        return isset($_SESSION['AllPosts']) ? $_SESSION['AllPosts'] : array();
+    }
+    public function updatePost(Post $post)
+    {
+        $_SESSION['AllPosts'][$post->getId()] = $post;
     }
 }
