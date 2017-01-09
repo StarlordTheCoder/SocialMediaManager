@@ -1,0 +1,28 @@
+Scrum Team
+==========
+Version 1.1, 20.12.2016
+:toc:
+
+= Rollenferteilung
+[width="100%",options="header,footer"]
+|====================
+| Pascal Honegger | Seraphin Rihm | Alain Keller | André Frey 
+| Scrum Master | Entwickler | Entwickler |  Produc-Owner
+|Entwickler|||
+|====================
+
+= Pascal
+Pascal übernimmt infolge von mangelnden alternativen die Rolle des Scrum Masters und leitet unser Team. Dies beinhaltet die Leitung der Planings und Retrospectives. Zudem hilft er dem Team bei der Entwicklung/ Planung des Projektes
+
+= Seraphin
+Seraphin entwickelt hauptsächlich am Prototypen und hilft bei der abarbeitung der modulspezifischer Storys.
+
+= Alain
+Alain entwickelt hauptsächlich am Prototypen und hilft bei der abarbeitung der modulspezifischer Storys.
+
+= Team-Kommunikation
+== Retrospective
+Hier besprechen wir den vergangenen Sprint und schauen was gut und schlecht gelaufen ist. Und versuchen verbesserungs Ansätze fürs Team.
+
+== Planing
+Hier Planen wir den zukünftigen Sprint und unterteilen die arbeit unter den Teammitgliedern.
