@@ -34,7 +34,7 @@ Selbes gilt falls man die Projektdauer verkürzen möchte, wobei die Qualität s
 = Überwachung der Projektparameter
 == Kosten
 Die Kosten entsprechen in unserem Projekt dem Aufwand multipliziert mit einem Stundensatz.
-Zusätzliche Kosten werden manuell dokumentiert. 
+Zusätzliche Kosten werden manuell dokumentiert.
 
 == Funktionsumfang
 Der Funktionsumfang ist in Form von Stories in unserem Scrum-Board dokumentiert.
@@ -44,3 +44,34 @@ Die Qualität wird durch die Anzahl gemeldeter Fehler und unsere Continous Integ
 
 == Aufwand
 Der Aufwand wird duch die geschätzten Story-Points auf den Stories gemessen.
+
+== Prozesse Parameter anpassung
+
+[uml]
+--
+start
+:Kunde möchte neues Feature;
+if (Entwickler einferstanden) then (Ja)
+  :Kosten anpassen;
+  :Aufwand anpassen;
+  :Funktionsumfang anpassen;
+else (Nein)
+  :Parameter bleiben gleich;
+endif
+:Planung entsprechend der neuen Parameter anpassen;
+--
+
+
+[uml]
+--
+start
+:Kunde möchte Features optimieren;
+if (Entwickler einferstanden) then (Ja)
+  :Kosten anpassen;
+  :Aufwand anpassen;
+  :Qualität anpassen;
+else (Nein)
+  :Parameter bleiben gleich;
+endif
+:Planung entsprechend der neuen Parameter anpassen;
+--
