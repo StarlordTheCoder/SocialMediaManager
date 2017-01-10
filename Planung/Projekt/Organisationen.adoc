@@ -19,9 +19,10 @@ Die Linien-Organisation ist Hirarchisch aufgebaut. Jeder Mitarbeiter hat einen V
 == Stablinien Organisation
 
 === Vorteile
+* Klare Verantwortlichkeiten
 
 === Nachteile
-
+* Trennung der Teile im Entscheidungsprozess (hoher Aufwand)
 
 == Funktionale Organisation
 In der Funktionalen Organisation wird der Betrieb in verschidenen Bereiche wie Forschung, Marketing, Vertrieb... unterteilt.
@@ -35,7 +36,12 @@ In der Funktionalen Organisation wird der Betrieb in verschidenen Bereiche wie F
 * Entscheidngsprozesse, welche alle betreffen sind lange
 
 == Matrix Organisation
+Der Betreieb wird in Objekt und Funktoinsabteilungen unterteilt. Für jedes Objekt gibt es verschiedene Funktionen, die von Abteilungen abgedenkt werden. Eine Abteilung kann für mehrere Objekte zuständig sein
 
 === Vorteile
+* Aufteilung in Funktions und Objekt manager
+* Kommunikation zwischen Manager führt zu Produktivität
 
 === Nachteile
+* Hoher Führungsaufwand
+* Erhöter Koordinationsaufwand
