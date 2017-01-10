@@ -1,0 +1,51 @@
+Umgang mit Ausnahmesituationen
+==============================
+Version 1.0, 13.12.2016
+:toc:
+:numbered:
+
+== Problems
+Wir berücksichtigen in der Planung die Möglichkeit, dass während der Entwicklung Out-of-line Situationen auftretetn können. Daher bauen wir immer einen Zeit-Puffer ein, in welchem wir keine Tasks einplanen, um nicht in Zeitnot zu kommen falls unerwartete Probleme auftreten.
+
+== Changes
+=== Änderungen dokumentieren
+Bei Änderungen an dem Funktionsumfang unseres Projektes müssen keine weiteren Dokumente erstellt werden.
+Die Änderungen sind durch die jeweiligen Backlog-Items dokumentiert, welche in Taiga auch über eine Change-History verfügen.
+Daher müssen nur neue Stories / Defects erstellt werden, diese symbolisieren die Dokumentation.
+
+=== Wieso werden Änderungen gemacht?
+==== Anforderung vergessen
+Der Kunde erkennt, dass bei dem bestehenden Produkt eine Funktion fehlt.
+
+[uml]
+--
+start
+:Feature (Story) wird erstellt;
+:Story wird durch Team ins Backlog aufgenommen;
+:Der jetzige Sprint wird normal abgeschlossen;
+:Story wird priorisiert und dementsprechend umgesetzt;
+stop
+--
+
+== Errors & Faults
+
+=== Fehler identifiziert
+Während der Benutzung des Produktes wurde ein Fehler identifiziert.
+
+[uml]
+--
+start
+:Fehler (Defect) wird erstellt;
+:Fehler wird durch Team ins Backlog aufgenommen;
+if (Kritischer Fehler?) then (Ja)
+  :Fehler sofort behandeln;
+else (Nein)
+  :Fehler wird bei der Planung
+in den Sprint aufgenommen;
+endif
+:Fehler wird korrigiert und geschlossen;
+stop
+--
+
+== Issues
+Wir gehen mit Issues wie mit den Fehlern um. Je nach wichtigkeit wird die Issue schneller behandelt. Die Wichtigkeit der Issues wird vom PO festgelegt. Die Issues werden im Scrumboard erfasst und verwaltet.
