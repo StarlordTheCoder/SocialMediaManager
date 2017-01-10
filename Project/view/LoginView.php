@@ -6,20 +6,18 @@
  * Time: 09:09
  */
 ?>
-
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Login</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <script src="../js/login.js" type="application/javascript"></script>
-        <script src="../js/jquery.min.js" type="application/javascript"></script>
-    </head>
     <body>
+    <script src="../js/login.js" type="application/javascript"></script>
+    <div class="container">
+        <h2 class="form-signin-heading">Log In</h2>
         <form onsubmit="login(); return false;" method="get" action="javascript:void(0);">
-            <label for="username">Username</label> <input type="text" name="username" id="username"> <br/>
-            <label for="password">Password</label> <input type="password" name="password" id="password"> <br />
-            <input type="submit" name="loginButton" id="loginButton">
+            <label for="username" class="sr-only">Username</label>
+            <input type="text" name="username" id="username" class="form-control"> <br/>
+            <label for="password" class="sr-only">Password</label>
+            <input type="password" name="password" id="password" class="form-control"> <br />
+            <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="login()">Sign in</button>
         </form>
+
+    </div>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     </body>
-</html>
