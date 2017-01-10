@@ -17,7 +17,7 @@ class LoginModel
         $this->session = CustomSession::getInstance();
     }
 
-    public function load(string $username): ?User
+    public function load(string $username)//TODO PHP7.1 : ?User
     {
         foreach ($this->session->getUsers() as $user)
         {

@@ -45,7 +45,7 @@ class CustomSession
     {
         $_SESSION['CurrentUser'] = $user;
     }
-    public function getCurrentUser(): ?User
+    public function getCurrentUser()//TODO PHP7.1 : ?User
     {
         return isset($_SESSION['CurrentUser']) ? $_SESSION['CurrentUser'] : null;
     }
