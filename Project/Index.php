@@ -5,6 +5,13 @@
  * Date: 10.01.2017
  * Time: 08:37
  */
+
+require_once("model/CustomSession.php");
+
+$session = CustomSession::getInstance();
+
+$currentUser = $session->getCurrentUser();
+
 ?>
  <html lang="en">
     <head>
@@ -24,28 +31,47 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.js"></script>
 
         <script src="js/index.js"></script>
+        <script src="js/login.js" type="application/javascript"></script>
 
-        <title>Aljogi</title>
+        <title>Social-Media-Manager</title>
     </head>
     <body>
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">WebSiteName</a>
+                    <a class="navbar-brand" href="#">Social-Media-Manager</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#" id="home" onclick="activateTab('home', 'view/Home.php')" data-toggle="tab">Home</a></li>
-                    <li><a href="#" id="calendar" onclick="activateTab('calendar', 'view/CalendarView.php')" data-toggle="tab">Calendar</a></li>
-                    <li><a href="#" id="posts" onclick="activateTab('posts', 'view/posts.php')" data-toggle="tab">Posts</a></li>
+                    <li id="home"><a href="#" onclick="activateTab('home', 'view/Home.php')" data-toggle="tab">Home</a></li>
+                    <li id="calendar"><a href="#" onclick="activateTab('calendar', 'view/CalendarView.php')" data-toggle="tab">Calendar</a></li>
+                    <li id="posts"><a href="#" onclick="activateTab('posts', 'view/posts.php')" data-toggle="tab">Posts</a></li>
                 </ul>
+                <?php
+
+                if($currentUser != null)
+                {
+                    ?>
+                    <ul class="nav navbar-nav navbar-right">2
+                        <li><a><?=$currentUser->getUsername()?></a></li>
+                        <li id="logout"><a href="#" onclick="logout()"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                    </ul>
+                    <?php
+                }
+                else
+                {
+                    ?>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a onclick=""><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a onclick=""><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li id="signUp"><a href="#" onclick="activateTab('signUp', 'view/RegisterView.php')" data-toggle="tab"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li id="login"><a href="#" onclick="activateTab('login', 'view/LoginView.php')" data-toggle="tab"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                 </ul>
+                    <?php
+                }
+                ?>
+
             </div>
         </nav>
 
-        <div id="mainContent">
+        <div id="mainContent" class="container">
 
         </div>
     </body>

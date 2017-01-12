@@ -6,23 +6,18 @@
  * Time: 09:09
  */
 ?>
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Register</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <script src="../js/register.js" type="application/javascript"></script>
-        <script src="../js/jquery.min.js" type="application/javascript"></script>
-    </head>
-    <body>
-        <form onsubmit="register(); return false;" method="post">
-            <label for="username">Username</label> <input type="text" name="username" id="username"> <br/>
-            <label for="surname">Surname</label> <input type="text" name="surname" id="surname"> <br/>
-            <label for="name">Name</label> <input type="text" name="name" id="name"> <br/>
-            <label for="mail">Mail</label> <input type="email" name="mail" id="mail"> <br/>
-            <label for="password">Password</label> <input type="password" name="password" id="password"> <br />
-            <label for="passwordtwo">Repeat Password</label> <input type="password" name="passwordtwo" id="passwordtwo"> <br />
-            <input type="submit" name="registerButton" id="registerButton">
-        </form>
-    </body>
-</html>
+<form onsubmit="register(); return false;" method="post" action="javascript:void(0);" name="registerForm" id="registerForm">
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username" class="form-control"> <br/>
+    <label for="surname">Surname</label>
+    <input type="text" name="surname" id="surname" class="form-control"> <br/>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" class="form-control"> <br/>
+    <label for="mail">Mail</label>
+    <input type="email" name="mail" id="mail" class="form-control"> <br/>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" class="form-control"> <br />
+    <label for="passwordtwo">Repeat Password</label>
+    <input type="password" name="passwordtwo" id="passwordtwo" class="form-control"> <br />
+    <button class="btn btn-lg btn-primary btn-block" type="submit" id="registerButton" name="registerButton">Sign in</button>
+</form>
