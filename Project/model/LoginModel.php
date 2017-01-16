@@ -19,10 +19,9 @@ class LoginModel
 
     public function load(string $username)//TODO PHP7.1 : ?User
     {
+        /** @var User $user */
         foreach ($this->session->getUsers() as $user)
         {
-            //Cannot declare type withing array
-            /** @noinspection PhpUndefinedMethodInspection */
             if($user->getUsername() == $username) {
                 return $user;
             }

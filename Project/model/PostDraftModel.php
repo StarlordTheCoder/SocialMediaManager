@@ -23,9 +23,9 @@ class PostDraftModel
 
         $post = new Post($latestId);
 
-        $post->setName($name);
+        $post->setTitle($name);
         $post->setContent($content);
-        $post->setDate($date);
+        $post->setStart($date);
 
         $this->session->addPost($post);
 

@@ -16,7 +16,7 @@ class Post
     /**
      * @var string
      */
-    private $name;
+    private $title;
 
     /**
      * @var string
@@ -31,7 +31,17 @@ class Post
     /**
      * @var datetime
      */
-    private $date;
+    private $start;
+
+    /**
+     * @var datetime
+     */
+    private $end;
+
+    /**
+     * @var bool
+     */
+    private $allDay;
 
 
     /**
@@ -54,18 +64,18 @@ class Post
     /**
      * @return string
      */
-    public function getName(): string
+    public function getTitle(): string
     {
-        return $this->name;
+        return $this->title;
     }
 
     /**
-     * @param string $name
+     * @param string $title
      * @return Post
      */
-    public function setName(string $name): Post
+    public function setTitle(string $title): Post
     {
-        $this->name = $name;
+        $this->title = $title;
         return $this;
     }
 
@@ -90,18 +100,54 @@ class Post
     /**
      * @return datetime
      */
-    public function getDate(): datetime
+    public function getStart(): datetime
     {
-        return $this->date;
+        return $this->start;
     }
 
     /**
-     * @param datetime $date
+     * @param datetime $start
      * @return Post
      */
-    public function setDate(datetime $date): Post
+    public function setStart(datetime $start): Post
     {
-        $this->date = $date;
+        $this->start = $start;
+        return $this;
+    }
+
+    /**
+     * @return datetime
+     */
+    public function getEnd(): datetime
+    {
+        return $this->end;
+    }
+
+    /**
+     * @param datetime $end
+     * @return Post
+     */
+    public function setEnd(datetime $end): Post
+    {
+        $this->end = $end;
+        return $this;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isAllDay(): bool
+    {
+        return $this->allDay;
+    }
+
+    /**
+     * @param bool $allDay
+     * @return Post
+     */
+    public function setAllDay(bool $allDay): Post
+    {
+        $this->allDay = $allDay;
         return $this;
     }
 
