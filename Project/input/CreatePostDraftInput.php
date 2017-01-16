@@ -7,7 +7,14 @@
  */
 require_once "../Model/PostDraftModel.php";
 
-//TODO Get User input, maybe controller to validate?
-$username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING) ?? "";
+//TODO Maybe controller to validate input?
+
+$title = filter_input(INPUT_POST, 'postTitle', FILTER_SANITIZE_STRING) ?? "";
+$content = filter_input(INPUT_POST, 'postContent', FILTER_SANITIZE_STRING) ?? "";
+$start = new DateTime(filter_input(INPUT_POST, 'startDate', FILTER_SANITIZE_STRING) ?? "");
+$end = new DateTime(filter_input(INPUT_POST, 'endDate', FILTER_SANITIZE_STRING) ?? "");
+$allDay = filter_input(INPUT_POST, 'isAllDay', FILTER_VALIDATE_BOOLEAN) ?? false;
+
 $model = new PostDraftModel();
-$model->add(null, null, null);
+
+$model->add($title, $content, $start, $end, $allDay);

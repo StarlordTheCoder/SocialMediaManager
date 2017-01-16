@@ -17,15 +17,13 @@ class PostDraftModel
         $this->session = CustomSession::getInstance();
     }
 
-    public function add(string $name, string $content, datetime $date): Post
+    public function add(string $title, string $content, datetime $start, datetime $end, bool $allDay): Post
     {
         $latestId = count($this->session->getPosts());
 
         $post = new Post($latestId);
 
-        $post->setTitle($name);
-        $post->setContent($content);
-        $post->setStart($date);
+        $post->setTitle($title)->setContent($content)->setStart($start)->setEnd($end)->setAllDay($allDay);
 
         $this->session->addPost($post);
 
