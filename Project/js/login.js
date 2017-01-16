@@ -6,7 +6,7 @@ function login() {
     var genericFormData = new FormData($("form")[0]);
 
     var previousValue = $('#loginButton').html();
-    $('#loginButton').html('...');
+    $('#loginButton').html('...').prop( "disabled", true);
 
     $.ajax({
         type: 'POST',
@@ -17,13 +17,13 @@ function login() {
         processData: false,
         success: function (data) {
             $('#loginButton').html('✔');
-            activateTab('home', 'view/Home.php');
+            loginStatusChanged();
         },
         error: function (request, status, error) {
             $('#loginForm').effect('shake', {times:2}, 750);
             $('#loginButton').html('✘');
             setTimeout(function() {
-                $('#loginButton').html(previousValue)
+                $('#loginButton').html(previousValue).prop( "disabled", false);
             }, 750)
         }
     });
@@ -34,7 +34,7 @@ function logout() {
         type: 'POST',
         url: 'input/LogoutInput.php',
         success: function (data) {
-            activateTab('home', 'view/Home.php');
+            loginStatusChanged();
         }
     });
 }
@@ -43,7 +43,7 @@ function register() {
     var genericFormData = new FormData($("form")[0]);
 
     var previousValue = $('#registerButton').html();
-    $('#registerButton').html('...');
+    $('#registerButton').html('...').prop( "disabled", true);
 
     $.ajax({
         type: 'POST',
@@ -54,14 +54,18 @@ function register() {
         processData: false,
         success: function (data) {
             $('#registerButton').html('✔');
-            activateTab('home', 'view/Home.php');
+            loginStatusChanged();
         },
         error: function (request, status, error) {
             $('#registerForm').effect('shake', {times:2}, 750);
             $('#registerButton').html('✘');
             setTimeout(function() {
-                $('#registerButton').html(previousValue)
+                $('#registerButton').html(previousValue).prop( "disabled", false);
             }, 750)
         }
     });
+}
+
+function loginStatusChanged() {
+    location.reload();
 }
