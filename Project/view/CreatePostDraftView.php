@@ -12,9 +12,9 @@
     <label for="postContent">Content</label>
     <input type="text" name="postContent" id="postContent" class="form-control" required="required"> <br/>
     <label for="startDate">Start</label>
-    <input type="datetime" name="startDate" id="startDate" class="form-control" required="required"> <br/>
+    <input type="date" name="startDate" id="startDate" class="form-control" required="required"> <br/>
     <label for="endDate">End</label>
-    <input type="datetime" name="endDate" id="endDate" class="form-control" required="required"> <br/>
+    <input type="date" name="endDate" id="endDate" class="form-control" required="required"> <br/>
     <label for="isAllDay">All day long</label>
     <input type="checkbox" name="isAllDay" id="isAllDay" class="form-control"> <br/>
     <button class="btn btn-lg btn-primary btn-block" type="submit" id="createPostDraftButton" name="createPostDraftButton">Create Draft</button>
