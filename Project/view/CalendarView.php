@@ -9,15 +9,14 @@
 
 <script>
 
-	$(document).ready(function() {
-		
+	$(function() {
 		$('#calendar').fullCalendar({
 			header: {
 				left: 'prev,next today',
 				center: 'title',
 				right: 'month,agendaWeek,agendaDay'
 			},
-			defaultDate: '2014-06-12',
+			defaultDate: new Date().toDateString(),
 			defaultView: 'agendaWeek',
 			editable: true,
 			eventSources: [
@@ -28,7 +27,6 @@
 				}
 			]
 		});
-		
 	});
 
 </script>
