@@ -51,3 +51,11 @@ Weitere Dokumente werden vom Kunden gewünscht und werden daher als Story in uns
 
 ### Scrum
 * [Retrospektiven](Planung/Scrum/Retrospectiven.adoc)
+
+## Notenaufteilung
+
+| Release       | Pascal        | Alain | Seraphin |
+| ------------- | ------------- | ----- | -------- |
+| Release 1     | 40%           | 25%   | 35%      |
+| Release 2     | 37.5%         | 38%   | 25%      |
+| Release 2     | 32.5%         | 35%   | 33%      |
