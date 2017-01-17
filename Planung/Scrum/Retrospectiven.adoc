@@ -1,19 +1,37 @@
 Retrospectiven
 ==============
-Version 1.0, 20.12.2016
+Version 1.1, 17.01.2017
 :toc:
 
 == 20.12.2016
-=== Positiv
+=== Positiv & Keep doing
 * Genug Arbeit für jeden
 * Gute Projekt-Aussichten
 * Entwicklungsumgebung funktioniert
 
-=== Negativ
+=== Negativ & Stop doing
 * Zu viele Dokumente
 * Contract nicht erfüllt
 * Arbeitsgerät eines Mitabeiters an der Grenze seiner Existenz
 
-=== Aktionen
+=== Aktionen & Start doing
 * Dokumentation besser aufteilen
 * Fokus auf Fertigstellung des Releases stellen
+
+== 17.01.2017
+=== Aktionen letze Retro
+* Dokumentation wurde besser aufgeteilt
+* Release wurde erneut nicht komplett abgeschlossen :(
+
+=== Positiv & Keep doing
+* Letzen Sprint abgeschlossen
+* Getrennte Arbeit dank VCS
+
+=== Negativ & Stop doing
+* Arbeit während Ferien funktioniert nicht wirklich
+* Arbeit nicht korrekt in VCS gepusht
+* TBZ-Internet inkonsistent
+
+=== Aktionen & Start doing
+* Mehr Puffer einberechnen
+* Vorsichtiger Planen

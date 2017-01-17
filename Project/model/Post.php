@@ -11,7 +11,7 @@ class Post
     /**
      * @var int
      */
-    private $id;
+    private $postId;
 
     /**
      * @var string
@@ -50,15 +50,15 @@ class Post
      */
     public function __construct(int $id)
     {
-        $this->id = $id;
+        $this->postId = $id;
     }
 
     /**
      * @return int
      */
-    public function getId(): int
+    public function getPostId(): int
     {
-        return $this->id;
+        return $this->postId;
     }
 
     /**

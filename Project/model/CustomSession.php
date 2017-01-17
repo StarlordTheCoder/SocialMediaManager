@@ -79,6 +79,6 @@ class CustomSession
     }
     public function updatePost(Post $post)
     {
-        $_SESSION['AllPosts'][$post->getId()] = $post;
+        $_SESSION['AllPosts'][$post->getPostId()] = $post;
     }
 }

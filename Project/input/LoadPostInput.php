@@ -14,7 +14,7 @@ $result = array();
 /** @var Post $post */
 foreach ($session->getPosts() as $post) {
     $postAsArray = [
-        "id" => $post->getId(),
+        "id" => $post->getPostId(),
         "title" => $post->getTitle(),
         "allDay" => $post->isAllDay(),
         "start" => $post->getStart()->format('Y-m-d H:i:s'),
