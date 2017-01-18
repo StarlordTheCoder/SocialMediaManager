@@ -1,2 +1,6 @@
-Lernjournal
-===========
+Lernjournal Alain Keller
+=======================
+:TOC:
+
+= Lernjournal
+In der Schule müssen wir ein Lernjournal schriebn, in welchem wir unsere Lernfortschritte, Problemlösungen, ... aufschreiben. Dieses wird dann auch von der Lehrperson bewertet. Ziel darin soll wohl sein, jedes noch so kleine Detail und Problem aufzuschreiben und den Lösungsprozess aufzuzeigen. Dies soll dann z.B. bei der IPA als Gesprächsgrundlage Dienen, und den Experten einen Enblick in unsere Arbeitsweise geben. Damit bin ich auch einverstanden, da der Experte sonst keine Chance hat, zu wissen, wie ich das Projekt fertiggestellt habe. Doch dieses Lernjournal wird zusätzlich benotet. Hier fängt das Problem an. Eine Bewertung eines Lernjournals kann nur auf rein subjektiver Basis erfolgen. Schon nur wenn es darum geht, was überhaupt in das Lernjournal kommt. Schliesslich ist das Lernjournal keine Technische Dokumentation, sondern eine Persönliche Dokumentation. So soll man z.B. den eigenen Lernprozess während des Projektes aufzeigen. Den gesmaten Lernprozess mit allen Problemen und Lösungen von zwei Wochen aufzuzeigen würde ewig dauern. Jeder Filtert Informationen raus und Schreibt diese nieder, welche ihm wichtig sind. Was für mich als Kleinigkeit, wleche keine künftige relevanz hat, eingestuft wird, ist für den Experten wichtig. Das sieht man ja schon wenn man zwei Tagebücher vergleicht. Gewisse Personen fassen ihren Tag auf einer Seite, mit den für sie wichtigen Informationen zusammen, andere schrieben jedoch jedes kleinste Detail auf, weil diese für sie relevanz haben. Dasselbe gilt auch für Lernjournale. Jeder schreibt seines anders, je nach seinen Ansichten auf das Thema. 
