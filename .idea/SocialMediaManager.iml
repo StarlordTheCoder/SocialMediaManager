@@ -25,5 +25,6 @@
     <orderEntry type="library" name="fullcalendar" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="moment" level="application" />
+    <orderEntry type="library" name="widgets" level="application" />
   </component>
 </module>

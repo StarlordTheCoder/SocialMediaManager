@@ -33,6 +33,7 @@ $currentUser = $session->getCurrentUser();
         <script src="js/index.js" type="application/javascript"></script>
         <script src="js/login.js" type="application/javascript"></script>
         <script src="js/post.js" type="application/javascript"></script>
+        <script async src="https://platform.twitter.com/widgets.js"></script>
 
         <title>Social-Media-Manager</title>
     </head>
@@ -52,7 +53,7 @@ $currentUser = $session->getCurrentUser();
                 if($currentUser != null)
                 {
                     ?>
-                <ul class="nav navbar-nav navbar-right">2
+                <ul class="nav navbar-nav navbar-right">
                     <li><a><?=$currentUser->getUsername()?></a></li>
                     <li id="logout"><a href="#" onclick="logout()"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
                 </ul>

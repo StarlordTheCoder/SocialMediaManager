@@ -17,6 +17,7 @@ function createPost() {
         processData: false,
         success: function (data) {
             $('#createPostDraftButton').html('✔');
+            activateTab('calendarNav', 'view/CalendarView.php')
         },
         error: function (request, status, error) {
             $('#createPostDraftForm').effect('shake', {times:2}, 750);
