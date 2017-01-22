@@ -1,0 +1,35 @@
+Artefakte zur Arbeitsplanung
+=============================
+Version 1.0, 13.12.2016
+:toc:
+:numbered:
+
+== Wie werden Arbeitspakete im agilen geplant und überwacht?
+Im Scrum gibt es folgende Arbeitspakete:
+
+. Epics (dies ist die grösste Art von Arbeitspaketen in Scrum z.B. Dokumentation, Testing usw.)
+.. User-Storys (diese werden einem Epic zugewiesen sie sollten ungefähr 1% bis 5% des Arbeitsaufwandes des Projektes abdecken)
+... Task (wird einer User-Story zugewiesen, ist die kleinste Version eines Arbeitspaketes in Scrum. Task dienen zur unterteilung der User-Storys in einzelne grössere Arbeitschritte z.B. Login-GUI implementieren)
+
+Die Arbeitspakte werden vom Productowner verwalted und erstellt. Dies in zusammenarbeit mit dem Team. Die Arbeitspakete werden vom Team und dem Productowner und dem Team anfang des Sprintes im sogenannten Planing geplant. Dies geschieht auf Basis der User-Stories, es wird immer definiert welche User-Stories im kommenden Sprint bearbeitet werden sollen. Diese Planung muss eingehalten werden, der Sprint ist erst fertig wenn alles erledigt ist. Es gibt auch noch das DOD welches definiert wann eine User-Story fertig ist.
+
+== CPM im Agilen
+=== Critical Path Method
+Die Methode des kritischen Pfades verwendet die Darstellungsform des Vorgangspfeils. Bei CPM-Plänen werden die Vorgänge als Pfeile, die Ereignisse als Knoten und die Anordnungsbeziehungen wieder als Pfeile dargestellt. Voraussetzung, um mit einem Netzplan sinnvoll arbeiten zu können, ist, dass alle Vorgänge des Projekts mit der jeweiligen individuellen Dauer richtig zueinander in Beziehung gesetzt werden.
+
+Folgende CPM-Regeln sind zu beachten:
+
+1.  Ein Vorgang kann erst beginnen, wenn alle vorhergehenden Vorgänge (Vorgänger) abgeschlossen sind. Dabei fällt das Anfangsereignis mit dem Endereignis des vorhergehenden Vorgangs zusammen (Ausnahme erster Vorgang).
+2.  Müssen mehrere Vorgänge beendet sein, bevor ein folgender Vorgang (Nachfolger) beginnen kann, so enden sie im Anfangsereignis des Nachfolgers.
+3.  Können mehrere Nachfolger beginnen, nachdem ein Vorgänger beendet ist, so beginnen sie im Endereignis des Vorgängers.
+4.  Haben zwei oder mehr Vorgänge gemeinsame Anfangs- und Endereignisse, so ist ihre eindeutige Kennzeichnung durch Einfügen von Scheinvorgängen sicherzustellen.
+5.  Beginnen und enden in einem Ereignis mehrere Vorgänge, die nicht alle voneinander abhängig sind, muss die Eindeutigkeit ebenfalls durch Scheinvorgänge erreicht werden.
+6.  In einer Folge von Vorgängen können beliebig viele Scheinvorgänge eingefügt werden. Sie dienen der logischen Verknüpfung und können die Übersicht erhöhen. Scheinvorgänge sollten als notwendiges Übel angesehen und deshalb generell sparsam angewendet werden.
+7.  Kann ein Vorgang beginnen, bevor der Vorgänger vollständig abgeschlossen ist, so muss der Vorgänger unterteilt werden. Diese Regel erhöht nicht unbedingt die Klarheit des Netzplans.
+8.  Jeder Vorgang darf nur einmal ablaufen, es dürfen keine Schleifen auftreten.
+
+=== Im Agilen
+Der CPM wird im agilen zweimal definiert:
+
+* Einmal zu beginn des Projekte für die ganze Projektzeit. 
+* Zum anderen zu begin jedes Sprintes
