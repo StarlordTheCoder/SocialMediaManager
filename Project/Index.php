@@ -10,6 +10,7 @@ require_once("model/CustomSession.php");
 
 $session = CustomSession::getInstance();
 
+/** @var User $currentUser */
 $currentUser = $session->getCurrentUser();
 
 ?>
@@ -36,25 +37,25 @@ $currentUser = $session->getCurrentUser();
         <title>Social-Media-Manager</title>
     </head>
     <body>
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse navbar-static-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">Social-Media-Manager</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li id="home"><a href="#" onclick="activateTab('home', 'view/Home.php')" data-toggle="tab">Home</a></li>
-                    <li id="calendarNav"><a href="#" onclick="activateTab('calendarNav', 'view/CalendarView.php')" data-toggle="tab">Calendar</a></li>
-                    <li id="posts"><a href="#" onclick="activateTab('posts', 'view/CreatePostDraftView.php')" data-toggle="tab">Posts</a></li>
+                    <li id="home"><a href="#" onclick="activateTab('home', 'view/Home.php')">Home</a></li>
+                    <li id="calendarNav" <?= $currentUser != null ? "" : "class=\"disabled disabledTab\"" ?>><a href="#" onclick="activateTab('calendarNav', 'view/CalendarView.php')">Calendar</a></li>
+                    <li id="posts" <?= $currentUser != null ? "" : "class=\"disabled disabledTab\"" ?>><a href="#" onclick="activateTab('posts', 'view/CreatePostDraftView.php')">Posts</a></li>
                 </ul>
                 <?php
 
                 if($currentUser != null)
                 {
                     ?>
-                    <ul class="nav navbar-nav navbar-right">2
-                        <li><a><?=$currentUser->getUsername()?></a></li>
-                        <li id="logout"><a href="#" onclick="logout()"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
-                    </ul>
+                <ul class="nav navbar-nav navbar-right">2
+                    <li><a><?=$currentUser->getUsername()?></a></li>
+                    <li id="logout"><a href="#" onclick="logout()"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                </ul>
                     <?php
                 }
                 else

@@ -3,6 +3,11 @@
  */
 
 function activateTab(tab, contentPath){
+    if($("#" + tab).hasClass("disabled")) {
+        return;
+    }
+
+
     $(".active").removeClass('active');
 
     $("#" + tab).addClass('active');
