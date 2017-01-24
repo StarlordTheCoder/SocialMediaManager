@@ -21,7 +21,8 @@ $(function() {
         ],
         eventClick: function(calEvent, jsEvent, view) {
             var data = [
-                ["eventId", calEvent.id]
+                ["eventId", calEvent.id],
+                ["eventContent", calEvent.content]
             ];
 
             $.ajax({
