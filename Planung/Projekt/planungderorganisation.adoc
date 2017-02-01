@@ -1,5 +1,5 @@
 Strukturelle Planung der Organisation
-=======================================================
+=====================================
 :toc:
 
 == Organisation nach Funktionen
