@@ -7,8 +7,8 @@ Version 1.1, 20.12.2016
 [width="100%",options="header,footer"]
 |====================
 | Pascal Honegger | Seraphin Rihm | Alain Keller | André Frey 
-| Scrum Master | Entwickler | Entwickler |  Produc-Owner
-|Entwickler|||
+| Scrum Master    | Entwickler    | Entwickler   | Product-Owner
+| Entwickler      |               |              |
 |====================
 
 = Pascal
