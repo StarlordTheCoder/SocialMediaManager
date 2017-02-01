@@ -1,0 +1,36 @@
+Strukturelle Planung der Organisation
+=======================================================
+:toc:
+
+== Organisation nach Funktionen
+In einer Organisation nach Funktionen wird die Firma in verschiedene funktionale Abteilungen unterteilt. So gibt es zum Beispiel in einem Industriebetrieb eine Abteilung Fertigung, Einkauf, Verwaltung, Vertrieb, .... Diese Abteilungen haben dann weitere untergeordnete Abteilungen, je nach Aufgaben.
+
+=== Vorteile
+* Keine redundanz der Aufgaben
+* Klare Aufteilung der Kompetenzen, Aufagben und Verantwortungen
+
+=== Nachteile
+* Langer Entscheidungsweg
+* Hoher Koordinationsaufwand bei Zusammenarbeit zwischen Funkionsabteilungen
+
+=== Agil?
+Ein Agiles Team kann sich in einem Betrieb, welcher Funktional Organisiert ist, einfinden. Es kann sich in der Fertigung/Produktion befinden. Dies ist vor allem bei Industriellen Betrieben von Vorteil, da diese oft Projekte haben welche nicht Agil umgesetzt werden können. In einem Softwareunternehmen, welches nach einer Fuinktionalen Organisation aufgebaut ist, sieht es ähnlich aus. Es wird andere Abteilungen geben, doch in der Abteilung "Entwicklung" können auch ein bis mehrere Scrum-Teams arbeiten. 
+
+== Organisation nach Objekten
+Oft wird die Divisionale Organisation, oder Organisation nach Objekten, in grossen Betreiben angewendet. Dabei wird der Betrieb in verschiedene Divisionen unterteilt. So ist zum Beispiel der Industriekonzern Siemens in verschiedene Divisionen, wie Mobility, Building Technologies, Energy,... unterteilt. Jede dieser Divisionen funktioniert wie eine eigenen Firma mit einer eigenen Divisionsleitung. Die Divisionen stehen aber immernoch unter der Obhut des Hauptkonzerns. Diese Divisionen haben dann eine weitere, eigenen Organisationsstruktur, je nach dem, was für ihre tätigkeit Sinn ergibt.
+
+=== Vorteile
+* Konkurrenzdruck zwischen Divisionen führt zu mehr leistung
+* Klare Trennung zwischen unterschiedlichen Aufgaben
+* Divisionen könne sich auf ihr Marktgebiet konzentreieren -> bessere Kunden/Produktorientierung
+* Mehr flexibiltät in einer Division
+
+=== Nachteile
+* Mehr Leitungsstellen
+* Redundante Aufgaben über die Divisionen
+* Divisonsziele und Unternehmensziele können sich unterscheiden
+
+=== Agil?
+Ist ein Betrieb vielfältig, und bietet Softwarelösungen an, kann eine Divisionale Organisation sich Positiv auf die Entwickler auswirken. So kann zum Beispiel eine eigene Division "Software" gemacht werden, die sich nur auf Software konzentriert. Lässt es die Geschäftsleitung zu, kann diese Division so eingerichtet werden, dass es möglichst einach ist, Agile Teams darin zu haben. 
+
+== Organisation nach Aufgaben
