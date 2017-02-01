@@ -17,10 +17,13 @@ Somit ist es gar nicht nötig, wenn überhaupt Sinvoll unterschiede zwischen Agi
 Projete, welche mit Agilem PM abgewickelt werden können durchaus vorteile für Kunden haben. Es gehört zum Interesse des Kundens, Änderungen in einem Projekt zu wünschen und dass diese durchgesetzt werden. Mit der Agilen PM ist dies für das Unternehmen einfacher handzuhaben und auch mit kleineren Kosten. Der Zielkonflickt zwischen dem Kunden und des Unternehmens bezüglich den Kosten eines Projektes wird somit verkleinert. Zusätzlich wird der Kunde mit regelmässigen releases über den Zwischenstand des Prjektes informiert, und kann fortlaufend weitere Ideen einbringen. Die allgemeine Kundenzufriedenheit profitert im Endeffekt davon. Jedoch liegt die Gefahr bei Agilen Projekten, dass sie sich länger in die Weite ziehen lassen als erwartet. Der Kunde weiss zu beginn nicht wieviel das Projekt effektiv kosten wird, statdessen bekommt er nur eine grobe Schätzung. 
 
 == Innerhalb der Unternehmung
-Der Entschied des Managements, Agile PM einzuführen wirkt sich durchaus auch auf die Mitarbeiter aus. 
+Der Entschied des Managements, Agile PM einzuführen wirkt sich durchaus auch auf die Mitarbeiter aus. Es muss dafür gesorgt sein, dass jedes Mitglied im Team in der Agilen Projektmethode geschult ist, da sonst niemand weiss, wie das wirklich geht und es somit zu Problemen kommen kann.
 
 == In der Führung
+In der Führung ändert sich wenig. In den grösseren Betrieben hat die Geschäftsleitung wenig Einfluss auf einzelne Teams. Doch auch die Führung sollte wissen um was es sich bei Agilen Projekten handelt, und wie sie Funktionieren.
 
 == In der Organisation
+In der Organisation ändert sich die Hierarchie. Alle Teammitglieder in einem Agilen Team sind auf einer Ebene. 
 
 == In der Verwendung von Führungs-Methoden
+Die Führungsmethoden wird von der Agilen Projektmethode geführt. Die Verantwortlichkeit liegt nun bei den Mitarbeitern, und die Entscheidungen werden nicht mehr von der Leitung getroffen. 
