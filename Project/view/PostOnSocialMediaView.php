@@ -8,5 +8,5 @@
 ?>
 
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.VeryCoolWebsite.com/" data-text="<?= filter_input(INPUT_POST, 'eventContent') ?? "" ?>" data-size="large">Tweet</a>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="Thanks for your feedback!" data-text="I hope you like our new way of interacting with Social Media!" data-size="large">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>

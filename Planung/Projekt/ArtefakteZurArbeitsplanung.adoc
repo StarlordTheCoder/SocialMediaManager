@@ -32,9 +32,9 @@ Folgende CPM-Regeln sind zu beachten:
 Der CPM wird im agilen zweimal definiert:
 
 * Einmal zu beginn des Projekte für die ganze Projektzeit. 
-* Zum anderen zu begin jedes Sprintes
+* Zum anderen zu Beginn jedes Sprintes
 
-== WBS im verglich zu agilen 
+== WBS im Vergleich zu agilen 
 === WBS
 Der Projektstrukturplan (**PSP**)work breakdown structure; abgekürzt WBS) ist das Ergebnis einer Gliederung des Projekts in plan- und kontrollierbare Elemente. Ein Projekt wird im Rahmen der Strukturierung in Teilaufgaben und Arbeitspakete unterteilt. Teilaufgaben sind Elemente, die weiter unterteilt werden müssen, Arbeitspakete sind Elemente, die sich im PSP auf der untersten Ebene befinden und dort nicht weiter unterteilt werden. Arbeitspakete enthalten die Elemente , die für die weiteren Planungsstufen benötigt werden. Die Erstellung eines Projektstrukturplans ist nach heutigem Erkenntnisstand des  Projektmanagements eine der zentralen Aufgaben der Projektplanung. Der PSP ist die Grundlage für die Termin- und Ablaufplanung, die Ressourceneinplanung und die Kostenplanung. Zudem fließen die Erkenntnisse aus dem PSP in das Risikomanagement ein. Weil er als Grundlagenplanung für ein Projekt angesehen werden kann, wird der PSP gerne als „Plan der Pläne“ bezeichnet.
 
