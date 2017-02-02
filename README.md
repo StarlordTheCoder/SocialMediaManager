@@ -36,20 +36,24 @@ Weitere Dokumente werden vom Kunden gewünscht und werden daher als Story in uns
 
 ## Übersicht
 ### Projekt
-* [Ziele](Planung/Projekt/Projektziele.adoc)
-* [Anwendungsfälle](Planung/Projekt/UseCases.adoc)
+* [Agiles Management vs St. Galler Management Modell](Planung/Projekt/AgilVsGallen.adoc)
+* [Artefakte zur Arbeitsplanung](Planung/Projekt/ArtefakteZurArbeitsplanung.adoc)
 * [Organisationen](Planung/Projekt/Organisationen.adoc)
+* [Projektauftrag](Planung/Projekt/Projektauftrag.adoc)
+* [Projektziele](Planung/Projekt/Projektziele.adoc)
+* [Umgang mit Ausnahmesituationen](Planung/Projekt/UmgangMitAusnahmesituationen.adoc)
+* [Anwendungsfälle](Planung/Projekt/UseCases.adoc)
+* [Planung der Organisation](Planung/Projekt/planungderorganisation.adoc)
 
 ### Prozesse
 * [Change Management](Planung/Prozesse/ChangeManagement.adoc)
+* [Projektparameter](Planung/Prozesse/Projektparameter.adoc)
 * [Allgemeine Prozesse](Planung/Prozesse/Prozesse.adoc)
 * [Qualitätssicherung](Planung/Prozesse/Qualitätssicherung.adoc)
-* [Projektparameter](Planung/Prozesse/Projektparameter.adoc)
-
-### Rollen
-* [Rollenverteilung](Planung/Rollen/rollen.doc)
 
 ### Scrum
+* [Aufgaben eines Agilen Teams](Planung/Scrum/AufgabenEinesAgilenTeams.adoc)
+* [Leitung im Agilen Team](Planung/Scrum/LeitungImAgilenTeam.adoc)
 * [Retrospektiven](Planung/Scrum/Retrospectiven.adoc)
 
 ## Notenaufteilung
