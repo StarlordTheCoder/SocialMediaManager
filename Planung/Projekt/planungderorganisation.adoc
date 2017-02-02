@@ -38,3 +38,5 @@ Was eine Organisation nach Aufagben ist, ist dem Team ein Rätsel. Ziel einer je
 
 " Unter funktionaler Organisation versteht man eine Gliederung der Einheiten einer Organisation nach Verrichtungen (Aufgaben) auf der  zweiten Hierarchieebene unterhalb der Unternehmensleitung."
 -- Wikipedia
+
+Diese Aussage bestätigt, dass es per se keine eigene Organisation nach Aufgaben gibt, sondern diese ein und dasselbe ist, wie die Funktionale Organisation. Es wird nicht weiter erläutert was die Vor-, und Nachteile einer Organisation nach Aufgaben ist, da diese schon weiter oben im Dokument unter dem Titel "Organisation nach Funktionen" erläutert werden.
