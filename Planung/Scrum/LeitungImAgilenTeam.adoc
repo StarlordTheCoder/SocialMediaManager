@@ -27,11 +27,34 @@ Was der Product Owner **NICHT** tut
 * Zusätzlich die Rolle des ScrumMasters einnehmen
 * Seine Aufgabe nur zu Beginn und am Ende der Sprints wahrnehmen
 
+
+== Aufgaben und Verantwortlichkeiten des ScrumMasters
+
+* Überprüft die Scrum-Prozesse und dessen korrekte Umsetzung
+* Strebt ständige Optimierung an
+* Beseitigt Impediments (Hindernisse)
+* Sorgt für Informationsfluss zwischen Product Owner und Team
+* Leitet Scrum-Meetings
+* Schützt das Team vor unberechtigten Eingriffen während des Sprints
+
+Was der ScrumMaster **NICHT** tut
+
+* Das Projekt oder Team leiten
+* Gleichzeitig die Rolle Team Member oder Product Owner einnehmen
+
 = Verantwortlichkeit des Teams
 == Klassisches Team
 * Braucht klare Führung
 * Räumlich verteilt
 * Grosses Team, durch mehrere Linien getrennt
+
+=== Chancen eines geführten Teams
+* Jeder weiss genau, was er zu tun hat
+* Management hat besseren überblick, wie sich das Projekt entwickelt
+
+=== Risiken eines ungeführten Teams
+* Teammitglieder entfachen nicht volles Potential
+* Starke Abhängigkeit zu Teamleiter
 
 == Scrum-Team
 * Besteht aus fünf bis zehn Personen (ideal sind sieben)
@@ -50,11 +73,11 @@ Was ein Scrum-Team **NICHT** tut
 * Im Daily Scrum dem ScrumMaster und/oder dem Product Owner berichten - die Team Members berichten einander
 * Das Sprint Backlog vernachlässigen
 
-== Chancen eines ungeführten Teams
+=== Chancen eines ungeführten Teams
 * Das Team wächst zusammen, wird dadurch effizienter
 * Mehr Motivation, da man für seien Arbeitskollegen arbeitet und nicht für den "bösen" Chef
 * Besser kommunikation zwischen den einzelnen Teammitgliedern
 
-== Risiken eines ungeführten Teams
+=== Risiken eines ungeführten Teams
 * Spätes entdecken, ob sich das Team auf dem falschen Pfad befindet
 * Schlechten überblick, ob das Projekt zeitgerecht abgeschlossen wird
