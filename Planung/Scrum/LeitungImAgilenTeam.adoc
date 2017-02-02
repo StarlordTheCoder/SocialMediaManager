@@ -1,0 +1,60 @@
+Leitung im Agilen Team
+======================
+Version 1.0, 02.02.2017
+:toc:
+
+= Aufgaben der Projektleitung
+== Projektleiter klassischer Ansatz
+Aufgaben und Verantwortlichkeiten des Projektleiters
+
+* Team leiten & organisieren
+* Zuweisen von Aufgaben an Teammitglieder
+* Übernimmt die Rollen "Product Owner" und "Scrum Master" des Agilen Ansatzes
+
+== Product Owner agiler Ansatz
+Aufgaben und Verantwortlichkeiten des Product Owners
+
+* Pflegt des Product Backlogs
+* Vertritt die Vision des Produktes
+* Priorisiert die Stories im Product Backlog
+* Steht für Rückfragen des Teams bereit, einfach erreichbar
+
+Was der Product Owner **NICHT** tut
+
+* Team deligierern
+* Daily Scrums leiten oder ungefragt mitreden
+* Während des Sprints den Sprint Backlog verändern
+* Zusätzlich die Rolle des ScrumMasters einnehmen
+* Seine Aufgabe nur zu Beginn und am Ende der Sprints wahrnehmen
+
+= Verantwortlichkeit des Teams
+== Klassisches Team
+* Braucht klare Führung
+* Räumlich verteilt
+* Grosses Team, durch mehrere Linien getrennt
+
+== Scrum-Team
+* Besteht aus fünf bis zehn Personen (ideal sind sieben)
+* Grössere Gruppen werden in mehrere miteinander kommunizierende Teams aufgeteilt
+* Organisiert sich selber (ungeführtes Team)
+* Entscheidet selbständig über das Zerlegen von Anforderungen (Stories) in Tasks (Arbeitsschritte) und deren Verteilung an einzelne Teammitglieder
+* Trifft sich täglich zum Daily Scrum, in dem die Team Members einander jeweils einen kurzen Statusbericht liefern
+* Liefert nach jedem Sprint ein Produkt, welches Potentially Shippable ist. Dieses wird ausserdem im Sprint Review Meeting präsentiert
+* Jedes Teammitglied kennt den Umfang und die Vision des Projektes
+* Jedes Teammitglied aktualisiert täglich die Aufwände seiner Tasks im Sprint Backlog
+* Jedes Teammitglied arbeitet als Teil des Teams und nicht für sich selbst
+
+Was ein Scrum-Team **NICHT** tut
+
+* Sich vom Product Owner seine Arbeitsweise vorschreiben lassen
+* Im Daily Scrum dem ScrumMaster und/oder dem Product Owner berichten - die Team Members berichten einander
+* Das Sprint Backlog vernachlässigen
+
+== Chancen eines ungeführten Teams
+* Das Team wächst zusammen, wird dadurch effizienter
+* Mehr Motivation, da man für seien Arbeitskollegen arbeitet und nicht für den "bösen" Chef
+* Besser kommunikation zwischen den einzelnen Teammitgliedern
+
+== Risiken eines ungeführten Teams
+* Spätes entdecken, ob sich das Team auf dem falschen Pfad befindet
+* Schlechten überblick, ob das Projekt zeitgerecht abgeschlossen wird
