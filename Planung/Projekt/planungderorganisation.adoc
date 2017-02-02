@@ -36,5 +36,5 @@ Ist ein Betrieb vielfältig, und bietet Softwarelösungen an, kann eine Division
 == Organisation nach Aufgaben
 Was eine Organisation nach Aufagben ist, ist dem Team ein Rätsel. Ziel einer jeden Organisation ist es schliesslich de Aufgaben, Verantwortungen und Kompetenzen zu verteilen. Also wären alle Organisationstypen eine Organisation nach Aufgaben. Auch auf Projektebene ist es schwer eine Organisation ohne nach Aufgaben zu unterteilen, zu machen.
 
-> Unter funktionaler Organisation versteht man eine Gliederung der Einheiten einer Organisation nach Verrichtungen (Aufgaben) auf der  zweiten Hierarchieebene unterhalb der Unternehmensleitung.
->- Wikipedia
+" Unter funktionaler Organisation versteht man eine Gliederung der Einheiten einer Organisation nach Verrichtungen (Aufgaben) auf der  zweiten Hierarchieebene unterhalb der Unternehmensleitung."
+-- Wikipedia
