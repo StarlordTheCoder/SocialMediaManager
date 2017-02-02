@@ -34,3 +34,4 @@ Oft wird die Divisionale Organisation, oder Organisation nach Objekten, in gross
 Ist ein Betrieb vielfältig, und bietet Softwarelösungen an, kann eine Divisionale Organisation sich Positiv auf die Entwickler auswirken. So kann zum Beispiel eine eigene Division "Software" gemacht werden, die sich nur auf Software konzentriert. Lässt es die Geschäftsleitung zu, kann diese Division so eingerichtet werden, dass es möglichst einach ist, Agile Teams darin zu haben. 
 
 == Organisation nach Aufgaben
+Was eine Organisation nach Aufagben ist, ist dem Team ein Rätsel. Ziel einer jeden Organisation ist es schliesslich de Aufgaben, Verantwortungen und Kompetenzen zu verteilen. Also wären alle Organisationstypen eine Organisation nach Aufgaben. Auch auf Projektebene ist es schwer eine Organisation ohne nach Aufgaben zu unterteilen, zu machen.
